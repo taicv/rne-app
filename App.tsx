@@ -7,9 +7,12 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import * as SplashScreen from 'expo-splash-screen';
 import { useColorScheme } from 'react-native';
 
+
 SplashScreen.preventAutoHideAsync();
 
 export default () => {
+
+  
   const [isReady, setIsReady] = useState(false);
 
   const colorScheme = useColorScheme();
